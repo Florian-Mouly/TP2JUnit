@@ -91,6 +91,7 @@ public class TicketMachineTest {
         
         @Test
         // S10 : on ne peut pas créer de machine qui délivre des tickets dont le prix est négatif
+        //
         public void negativTicketPrice(){
             try {
                 new TicketMachine(0);
